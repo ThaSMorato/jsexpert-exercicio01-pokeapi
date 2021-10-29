@@ -25,10 +25,10 @@ Deve retornar um array com 3 pokemóns aleatórios, contendo seus respectivos `n
 
 - [x] mocks
 - [x] stubs
-- [x] spies
+- [ ] spies
 - [x] testes end-2-end
 - [x] testes unitários
-- [x] 100% de code coverage
+- [ ] 100% de code coverage
 
 ### Extras
 
