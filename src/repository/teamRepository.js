@@ -14,12 +14,15 @@ class TeamRepository {
   }
 
   async getPokemon({ index }) {
-    //todo error if index < 1 and > pokemonCount
-    //todo other call if index > beginForm
+    let correctIndex = index;
+
+    if (index > this.beginForm) {
+      correctIndex = 10000 + (index - this.beginForm);
+    }
 
     const {
       data: { name, moves },
-    } = await axios.get(`${this.url}/${index}`);
+    } = await axios.get(`${this.url}/${correctIndex}`);
 
     return {
       name,

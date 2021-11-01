@@ -4,5 +4,6 @@
   "functions": 100,
   "statements": 100,
   "checkCoverage": true,
-  "reporter": ["html", "text"]
+  "reporter": ["html", "text"],
+  "exclude": ["src/index.js"]
 }

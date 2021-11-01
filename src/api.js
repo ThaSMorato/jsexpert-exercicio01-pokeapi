@@ -51,10 +51,4 @@ class Api {
   }
 }
 
-// adiciono NODE_ENV para teste (adicionado no Package.json)
-if (process.env.NODE_ENV !== "test") {
-  const api = new Api();
-  api.createServer();
-}
-
-module.exports = (dependencies) => new Api(dependencies);
+module.exports = Api;

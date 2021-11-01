@@ -25,10 +25,12 @@ Deve retornar um array com 3 pokemóns aleatórios, contendo seus respectivos `n
 
 - [x] mocks
 - [x] stubs
-- [ ] spies
+- [x] spies
 - [x] testes end-2-end
 - [x] testes unitários
-- [ ] 100% de code coverage
+- [x] 100% de code coverage
+
+![Img 100% code cov](img/hundredpercent.png)
 
 ### Extras
 
