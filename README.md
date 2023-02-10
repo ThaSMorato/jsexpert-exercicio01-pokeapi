@@ -98,4 +98,5 @@ URLs Úteis ao desafio:
 
 ## Até quando?
 
+
 Se você está pegando esse desafio na estréia, corre lá e envia pra gente até *Quarta-feira, 10 de novembro de 2021 (10/11/2021)*!
